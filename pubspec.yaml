@@ -1,0 +1,16 @@
+name: sbom_gen
+description: Takes in an SBOM (CycloneDX or SPDX format) and looks up public packages to generate a more detailed SBOM.
+version: 0.0.1
+homepage: https://github.com/rufman/sbom_gen
+
+environment:
+  sdk: ^3.0.6
+
+# Add regular dependencies here.
+dependencies:
+  path: ^1.8.3
+  yaml: ^3.1.2
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
